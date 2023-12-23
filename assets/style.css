@@ -18,6 +18,7 @@ header {
 	align-items: center;
 }
 
+
 nav ul {
 	display: flex;
 	list-style-type: none;
@@ -85,10 +86,6 @@ nav a {
 	width: 80%;
 	font-size: 14px;
 }
-
-/* #gallery {
-	min-height: 100vh; 
-} */
 
 .title{
 	text-align: center;
@@ -321,11 +318,11 @@ input[type="submit"] {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	nav, nav ul {
+	header nav, header nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
-	nav li {
+	header nav li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
